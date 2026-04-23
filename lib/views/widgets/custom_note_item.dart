@@ -27,7 +27,7 @@ class NoteItem extends StatelessWidget {
                 'Build your Career with Notes App',
                 style: TextStyle(
                   color: Colors.black.withOpacity(0.5),
-                  fontSize: 20,
+                  fontSize: 18,
                 ),
               ),
             ),
