@@ -31,15 +31,12 @@ class NoteItem extends StatelessWidget {
                 ),
               ),
             ),
-            trailing: Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: IconButton(
-                onPressed: () {},
-                icon: FaIcon(
-                  FontAwesomeIcons.trash,
-                  color: Colors.black,
-                  size: 24,
-                ),
+            trailing: IconButton(
+              onPressed: () {},
+              icon: FaIcon(
+                FontAwesomeIcons.trash,
+                color: Colors.black,
+                size: 24,
               ),
             ),
           ),
